@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home - Quiz Maker</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome to Quiz Maker</h2>
+    <button onclick="toggleForm()">Create Quiz</button>
+    <div id="quizList"></div>
+  </div>
+
+  <div id="quizCreateForm" style="display:none;">
+    <input type="text" id="question" placeholder="Enter Question">
+    <input type="text" id="opt1" placeholder="Option 1">
+    <input type="text" id="opt2" placeholder="Option 2">
+    <input type="text" id="opt3" placeholder="Option 3">
+    <input type="text" id="opt4" placeholder="Option 4">
+    <input type="number" id="correct" placeholder="Correct option (1-4)">
+    <button onclick="addQuestion()">Add Question</button>
+    <button onclick="finishQuiz()">Finish & Save Quiz</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

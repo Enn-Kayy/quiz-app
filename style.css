@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f2f6f9, #d6e4f0);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container */
+  .container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Headings */
+  .container h2 {
+    margin-bottom: 20px;
+    color: #1a73e8;
+  }
+  
+  /* Inputs */
+  input[type="text"],
+  input[type="password"],
+  input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    display: block;
+    font-size: 16px;
+  }
+  
+  /* Buttons */
+  button {
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0f59c9;
+  }
+  
+  /* Links */
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Quiz Form */
+  #quizForm {
+    text-align: left;
+  }
+  
+  .question-block {
+    background-color: #f1f6fb;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #d2e3f3;
+    border-radius: 8px;
+  }
+  
+  .question-block p {
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  .question-block label {
+    display: block;
+    margin: 4px 0;
+    cursor: pointer;
+  }
+  
+  /* Score Display */
+  #result h3 {
+    color: #1a73e8;
+    margin-top: 20px;
+  }
+  
+  /* Quiz Create Form */
+  #quizCreateForm {
+    margin-top: 20px;
+    background-color: #f9fbfd;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccd8e4;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+  
+    input, button {
+      font-size: 14px;
+    }
+  }
+  
